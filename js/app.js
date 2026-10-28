@@ -111,6 +111,12 @@
     Object.keys(itens).forEach(function (i) {
       const p = produtos[i];
       const li = el('li', 'item');
+      const foto = el('img', 'item__foto');
+      foto.src = p.foto;
+      foto.alt = p.nome;
+      foto.loading = 'lazy';
+      li.appendChild(foto);
+
       const txt = el('div', 'item__txt');
       txt.appendChild(el('strong', 'item__nome', nomeCompleto(p)));
       txt.appendChild(el('span', 'item__unit', brl.format(p.preco) + ' cada'));

@@ -10,6 +10,8 @@ Loja estática da Grace com catálogo de semijoias, filtros por categoria, carri
 - `js/app.js`: filtros, carrinho e cálculo de valores.
 - `img/`: fotos das peças da coleção.
 
+O perfil oficial informado é [@gracesemijoias_](https://www.instagram.com/gracesemijoias_/).
+
 ## Personalizar produtos e pedidos
 
 Edite `js/produtos.js` para atualizar nomes, preços, descrições, categorias e fotos. Informe em `LOJA.whatsapp` o telefone da Grace com DDI e DDD, somente números, para direcionar os pedidos. O cupom de demonstração `GRACE10` aplica 10% de desconto.
